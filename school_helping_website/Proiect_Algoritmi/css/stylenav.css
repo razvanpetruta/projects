@@ -1,0 +1,438 @@
+.bgcustom
+{
+   background-image: url(../media/gray_sand.png);
+}
+
+.dropdown-menu
+{
+   background-image: url(../media/gray_sand.png);
+}
+
+.nav-item
+{
+   padding-left: 25px !important;
+   color: #FFCC00 !important;
+}
+
+.nav-item:hover
+{
+   color: #FFCC00;
+}
+
+.dropdown-toggle
+{
+   color: whitesmoke !important;
+}
+
+.dropdown-toggle:hover
+{
+   color: #FFCC00 !important;
+}
+
+.dropdown-item
+{
+   color: whitesmoke !important;
+}
+
+.dropdown-item:hover
+{
+   background-image: url(../media/black_denim.png);
+   color: #FFCC00 !important;
+}
+
+.cool-underline::after
+{
+   content: '';
+   display: block;
+   width: 0%;
+   height: 2px;
+   background: #FFCC00;
+   transition-timing-function: ease-out;
+   transition-delay: 0s;
+}
+
+.cool-underline:hover::after
+{
+   width: 100%;
+   transition: .3s all ease-out;
+   transition-property: all;
+   transition-duration: 0.3s;
+   transition-timing-function: ease-out;
+   transition-delay: 0s;
+}
+
+.navbar-brand {
+  width:10px;
+  font-size: 15px;
+}
+
+.logo
+{
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+.logo 
+{
+   background-image: url(../media/logo.png);
+   transition: transform .3s;
+}
+ 
+.logo:hover 
+{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.navbar-brand img {
+  height: 15px;
+  width: 20px;
+}
+
+.home:hover
+{
+  color: #FFCC00 !important;
+}
+
+h1
+{
+   color: #F50057;
+}
+
+.fundal
+{
+   background-image: url(../media/white_carbon.png);
+}
+
+.fundalfooter
+{
+   background-image: url(../media/gray_sand.png);
+}
+
+@media only screen and (max-width: 768px) 
+{
+   .mobilecol
+   {
+      width: 100%;
+   }
+}
+
+.sursa
+{
+   color: black !important;
+}
+
+.sursa:hover
+{
+   color: #FFCC00 !important;
+}
+
+.center
+{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+html
+{
+   scroll-behavior: smooth;
+}
+
+.manpc
+{
+   width: 500px;
+   height: 700px;
+}
+
+.computer
+{
+   transition: transform .3s;
+}
+
+.computer:hover
+{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+#start
+{
+   height: 100vh;
+   background-image: url(../media/startbg.png);
+}
+
+#middle
+{
+   height: 100%;
+   background-color: #f4a076;
+}
+
+.section1
+{
+   margin-top: 20px;
+   width: 800px;
+   height: 500px;
+   position: relative;
+   left: 50%;
+   -webkit-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
+   transform: translateX(-50%);
+}
+
+@keyframes bounce 
+{
+   0%, 20%, 60%, 100% 
+   {
+     -webkit-transform: translateY(0);
+     transform: translateY(0);
+   }
+ 
+   40% 
+   {
+     -webkit-transform: translateY(-20px);
+     transform: translateY(-20px);
+   }
+ 
+   80% 
+   {
+     -webkit-transform: translateY(-10px);
+     transform: translateY(-10px);
+   }
+}
+
+.arrows:hover 
+{
+   animation: bounce 1s infinite;
+}
+
+.titlesection1
+{
+   text-align: center;
+   font-family: garamond;
+   color: #FFCC00;
+}
+
+.descrieresecventa1
+{
+   color: #1b1704;
+   font-size: 21px;
+   font-family: garamond;
+}
+
+@media only screen and (max-width: 768px) 
+{
+   #middle
+   {
+      height: auto;
+   }
+   #start
+   {
+      height: auto;
+   }
+   .col-6
+   {
+      width: 100%;
+   }
+   .col-8
+   {
+      width: 100%;
+   }
+   .col-9
+   {
+      width: 100%;
+   }
+   .col-7
+   {
+      width: 100%;
+   }
+}
+
+.infosec
+{
+   color: #F50057;
+   margin-bottom: 0px;
+}
+
+.paragraph
+{
+   color: whitesmoke;
+}
+
+.laptop1
+{
+   width: 120px;
+   height: 100px;
+   margin-top: 20px;
+   float: left;
+}
+
+@media only screen and (max-width: 1500px) 
+{
+   #middle
+   {
+      height: auto;
+   }
+   #start
+   {
+      height: auto;
+   }
+}
+
+@media only screen and (min-width: 1500px) 
+{
+   .rowinfo 
+   {
+      margin-bottom: 5px;
+   }
+
+   .paragraph
+   {
+      text-align: justify;
+   }
+
+   .descrieresecventa1
+   {
+      text-align: justify;
+   }
+}
+
+.questionmark, .eroare
+{
+   width: 200px;
+   height: 120px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   float: right;
+}
+
+.hackerman, .improve
+{
+   width: 200px;
+   height: 120px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.questionmark:hover, .eroare:hover, .improve:hover, .hackerman:hover, .startplant:hover, .startcafea:hover
+{
+   animation: bounce 1s infinite;
+}
+
+.infosec, .titlesection1
+{
+   transition: transform .3s;
+}
+ 
+.infosec:hover, .titlesection1:hover
+{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.startnow
+{
+   margin-top: 20px;
+   width: 800px;
+   height: 500px;
+   position: relative;
+   left: 50%;
+   -webkit-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
+   transform: translateX(-50%);
+}
+
+hr
+{
+   border-top: 5px solid #FFCC00;
+}
+
+h3, h4
+{
+   color: #F50057;
+}
+
+.bg-custom
+{
+   background: transparent !important;
+}
+
+.custom11
+{
+   transition: 0.8s ease;
+}
+
+.itemstart
+{
+   color: black !important;
+}
+
+.bg-custom.scrolled
+{
+   background: #404040 !important;
+}
+
+.itemstart.scrolled
+{
+   color: white !important;
+}
+
+.itemstart.scrolled:hover
+{
+   color: #FFCC00 !important;
+}
+
+.bordermenu1
+{
+   border: 4px solid black;
+   border-radius: 10px;
+}
+
+.navbar-toggler-icon.scrolled
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.bordermenu1.scrolled
+{
+   border: 4px solid whitesmoke;
+   border-radius: 10px;
+}
+
+.dropdown-menu-nav1
+{
+   background: whitesmoke !important;
+}
+
+.dropdown-item-nav1
+{
+   color: black !important;
+}
+
+.dropdown-item-nav1:hover
+{
+   background: #e9edf6 !important;
+   color: #FFCC00 !important;
+}
+
+.dropdown-menu-nav1.scrolled
+{
+   background: #404040 !important;
+}
+
+.dropdown-item-nav1.scrolled
+{
+   color: whitesmoke !important;
+}
+
+.dropdown-item-nav1.scrolled:hover
+{
+   background: #151515 !important;
+   color: #FFCC00 !important;
+}
+
